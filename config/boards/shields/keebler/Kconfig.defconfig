@@ -1,0 +1,20 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_KEEBLER_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "Keebler"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+
+endif
+
+
+if SHIELD_KEEBLER_LEFT || SHIELD_KEEBLER_RIGHT
+
+config ZMK_SPLIT
+	default y
+
+endif
