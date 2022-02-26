@@ -12,7 +12,7 @@
 		       &kp W  &kp S  &kp P       &kp B                            &kp J          &kp L       &kp E      &kp Y
 		&kp Q  &kp R  &kp C  &kp T       &kp G                            &kp M          &kp N       &kp COMMA  &kp I       &kp SEMICOLON
 		&kp A  &kp X         &kp D       &kp V                            &kp K          &kp H                  &kp PERIOD  &kp O
-		&kp Z                &kp ESCAPE  &kp SPACE  &kp TAB    &kp ENTER  &kp BACKSPACE  &kp DELETE                         &kp SLASH
+		&bt BT_CLR                &kp ESCAPE  &kp SPACE  &kp TAB    &kp ENTER  &kp BACKSPACE  &kp DELETE                         &kp SLASH
 		>;
 		};
 	};
