@@ -28,10 +28,10 @@
     navigation_layer {
       bindings = <
                     &trans                                                            &trans
-          &trans    &kp LCTRL  &trans     &trans                    &trans  &trans    &kp DOWN  &trans
-&trans    &kp LALT  &trans     &kp LSHFT  &trans                    &trans  &kp LEFT  &trans    &kp UP  &trans
-&kp LMETA  &trans              &trans     &trans                    &trans  &trans              &trans  &kp RIGHT
-&trans                         &trans     &trans  &trans    &trans  &trans  &trans                      &trans
+          &trans    &kp LCTRL  &trans     &trans                    &trans    &trans    &kp DOWN   &trans
+&trans    &kp LALT  &trans     &kp LSHFT  &trans                    &kp CAPS  &kp LEFT  &kp PG_DN  &kp UP     &trans
+&kp LMETA  &trans              &trans     &trans                    &trans    &kp HOME             &kp PG_UP  &kp RIGHT
+&trans                         &trans     &trans  &trans    &trans  &trans    &trans                          &kp END
       >;
     };
 
