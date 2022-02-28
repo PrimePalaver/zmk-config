@@ -19,7 +19,7 @@
       bindings = <
                          &kp F                                                                                             &kp U
              &kp W       &mt LCTRL S  &kp P        &kp B                                        &kp J         &kp L        &mt  RCTRL E  &kp Y
-&kp Q        &mt LALT R  &kp C        &mt LSHFT T  &kp G                                        &kp M         &mt RSHFT N  &kp COMMA     &mt RALT I  &kp SEMICOLON
+&kp Q        &mt LALT R  &kp C        &mt LSHFT T  &kp G                                        &kp M         &mt RSHFT N  &kp COMMA     &mt RALT I  &kp SQT
 &mt LMETA A  &kp X                    &kp D        &kp V                                        &kp K         &kp H                      &kp DOT     &mt RMETA O
 &lt BUT Z                             &lt MED ESC  &lt NAV SPACE  &lt MOU TAB    &lt SYM ENTER  &lt NUM BSPC  &lt FUN DEL                            &lt BUT SLASH
       >;
