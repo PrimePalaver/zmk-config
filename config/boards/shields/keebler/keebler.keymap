@@ -87,8 +87,8 @@
 
     function_layer {
       bindings = <
-                 &kp F8                                                             &trans
-         &kp F7  &kp F5  &kp F9  &trans                    &trans  &trans     &kp RCTRL  &trans
+                 &kp F8                                                       &trans
+         &kp F7  &kp F5  &kp F9  &kp SYSREQ                &trans  &trans     &kp RCTRL  &trans
 &kp F12  &kp F4  &kp F2  &kp F6  &trans                    &trans  &kp RSHFT  &trans     &kp RALT  &trans
 &kp F11  &kp F1          &kp F3  &trans                    &trans  &trans                &trans    &kp RMETA
 &kp F10                  &trans  &trans  &trans    &trans  &trans  &trans                          &trans
