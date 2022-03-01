@@ -21,7 +21,7 @@
              &kp W       &mt LCTRL S  &kp P        &kp B                                        &kp J         &kp L        &mt  RCTRL E  &kp Y
 &kp Q        &mt LALT R  &kp C        &mt LSHFT T  &kp G                                        &kp M         &mt RSHFT N  &kp COMMA     &mt RALT I  &kp SQT
 &mt LMETA A  &kp X                    &kp D        &kp V                                        &kp K         &kp H                      &kp DOT     &mt RMETA O
-&lt BUT Z                             &lt FUN ESC   &lt NUM SPACE  &lt SYM TAB    &lt MOU ENTER  &lt NAV BSPC  &lt MED DEL                            &lt BUT SLASH
+&lt BUT Z                             &lt FUN ESC  &lt NUM SPACE  &lt SYM TAB    &lt MOU ENTER  &lt NAV BSPC  &lt MED DEL                            &lt BUT SLASH
       >;
     };
 
@@ -78,20 +78,20 @@
     symbol_layer {
       bindings = <
                       &trans                                                                 &kp STAR
-           &trans     &kp LCTRL  &trans     &trans                       &kp LBRC  &kp AMPS  &kp PRCNT  &kp LPAR   &kp RBRC
-&trans     &kp LALT   &trans     &kp LSHFT  &trans                       &kp PLUS  &kp DLLR  &kp AT     &kp CARET  &kp COLON
-&kp LMETA  &trans                &trans     &trans                       &kp PIPE  &kp EXCL             &kp HASH   &kp TILDE
-&trans                           &trans     &trans  &trans    &kp UNDER  &kp LPAR  &kp RPAR
+           &trans     &kp LCTRL  &trans     &trans                       &kp LBRC  &kp AMPS  &kp PRCNT  &kp LPAR
+&trans     &kp LALT   &trans     &kp LSHFT  &trans                       &kp PLUS  &kp DLLR  &kp AT     &kp CARET  &kp RBRC
+&kp LMETA  &trans                &trans     &trans                       &kp PIPE  &kp EXCL             &kp HASH   &kp COLON
+&trans                           &trans     &trans  &trans    &kp UNDER  &kp LPAR  &kp RPAR                        &kp TILDE
       >;
     };
 
     function_layer {
       bindings = <
-                      &trans                                                             &kp F8
-           &trans     &kp LCTRL  &trans     &trans                    &kp PSCRN  &kp F7  &kp F5  &kp F9
-&trans     &kp LALT   &trans     &kp LSHFT  &trans                    &trans     &kp F4  &kp F2  &kp F6  &kp F12
-&kp LMETA  &trans                &trans     &trans                    &trans     &kp F1          &kp F3  &kp F11
-&trans                           &trans     &trans  &trans    &trans  &trans     &trans                  &kp F10
+                     &trans                                                             &kp F8
+           &trans    &kp LCTRL  &trans     &trans                    &kp PSCRN  &kp F7  &kp F5  &kp F9
+&trans     &kp LALT  &trans     &kp LSHFT  &trans                    &trans     &kp F4  &kp F2  &kp F6  &kp F12
+&kp LMETA  &trans               &trans     &trans                    &trans     &kp F1          &kp F3  &kp F11
+&trans                          &trans     &trans  &trans    &trans  &trans     &trans                  &kp F10
       >;
     };
   };
