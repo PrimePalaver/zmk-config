@@ -67,11 +67,11 @@
 
     number_layer {
       bindings = <
-                      &trans                                                             &kp N8
-           &trans     &kp LCTRL  &trans     &trans                       &trans  &kp N7  &kp N5  &kp N9
-&trans     &kp LALT   &trans     &kp LSHFT  &trans                       &trans  &kp N4  &kp N2  &kp N6  &kp RBKT
-&kp LMETA  &trans                &trans     &trans                       &trans  &kp N1          &kp N3  &kp SEMI
-&trans                           &trans     &trans  &trans    &kp MINUS  &kp N0  &kp DOT                 &kp GRAVE
+                      &trans                                                                &kp N8
+           &trans     &kp LCTRL  &trans     &trans                       &kp LBKT   &kp N7  &kp N5  &kp N9
+&trans     &kp LALT   &trans     &kp LSHFT  &trans                       &kp EQUAL  &kp N4  &kp N2  &kp N6  &kp RBKT
+&kp LMETA  &trans                &trans     &trans                       &kp BSLH   &kp N1          &kp N3  &kp SEMI
+&trans                           &trans     &trans  &trans    &kp MINUS  &kp N0     &kp DOT                 &kp GRAVE
       >;
     };
 
