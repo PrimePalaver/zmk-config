@@ -21,7 +21,7 @@
              &kp W       &mt LCTRL S  &kp P        &kp B                                        &kp J         &kp L        &mt  RCTRL E  &kp Y
 &kp Q        &mt LALT R  &kp C        &mt LSHFT T  &kp G                                        &kp M         &mt RSHFT N  &kp COMMA     &mt RALT I  &kp SQT
 &mt LMETA A  &kp X                    &kp D        &kp V                                        &kp K         &kp H                      &kp DOT     &mt RMETA O
-&lt BUT Z                             &lt FN ESC   &lt NUM SPACE  &lt SYM TAB    &lt MOU ENTER  &lt NAV BSPC  &lt MED DEL                            &lt BUT SLASH
+&lt BUT Z                             &lt FUN ESC   &lt NUM SPACE  &lt SYM TAB    &lt MOU ENTER  &lt NAV BSPC  &lt MED DEL                            &lt BUT SLASH
       >;
     };
 
