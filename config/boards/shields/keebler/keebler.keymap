@@ -37,17 +37,17 @@
            &kp LBKT  &kp EQUAL  &kp LPAR   &kp TILDE                    &kp CARET  &kp RPAR   &sk RCTRL  &kp RBKT
 &kp ESC    &kp STAR  &kp AT     &kp UNDER  &kp DLLR                     &kp HASH   &sk RSHFT  &kp AMPS   &sk RALT   &kp GRAVE
 &kp MINUS  &kp PIPE             &kp FSLH   &kp PRCNT                    &trans     &kp BSLH              &kp QMARK  &sk RMETA
-&kp PLUS                        &mo NUM     &trans     &trans    &trans  &trans     &trans                           &kp EXCL
+&kp PLUS                        &mo NUM    &trans     &trans    &trans  &trans     &trans                           &kp EXCL
       >;
     };
 
     number_layer {
       bindings = <
-                     &kp N3                                                               &kp N2
-           &kp N5    &kp LCTRL  &kp N1     &kp N9                     &kp N8   &kp N0     &sk RCTRL  &kp N4
-&kp N7     &sk LALT  &kp F3     &sk LSHFT  &kp F11                    &kp F10  &sk RSHFT  &kp F2     &sk RALT  &kp N6
-&sk LMETA  &kp F5               &kp F1     &kp F9                     &kp F8   &kp F12               &kp F4    &sk RMETA
-&kp F7                          &trans     &trans   &trans    &trans  &trans   &trans                          &kp F6
+                     &kp N3                                                               &kp N8
+           &kp N2    &kp LCTRL  &kp N4     &kp N5                     &kp N6   &kp N7     &sk RCTRL  &kp N9
+&kp N1     &sk LALT  &kp F3     &sk LSHFT  &kp F11                    &kp F12  &sk RSHFT  &kp F8     &sk RALT  &kp N0
+&sk LMETA  &kp F2               &kp F4     &kp F5                     &kp F6   &kp F7          	     &kp F9    &sk RMETA
+&kp F1                          &trans     &trans   &trans    &trans  &trans   &trans                          &kp F10
       >;
     };
   };
