@@ -33,8 +33,8 @@
 
     symbol_layer {
       bindings = <
-                     &kp LBRC                                                                 &kp RBRC
-           &kp LBKT  &kp EQUAL  &kp LPAR   &kp TILDE                    &kp CARET  &kp RPAR   &sk RCTRL  &kp RBKT
+                     &kp LBKT                                                                 &kp RBKT
+           &kp LBRC  &kp EQUAL  &kp LPAR   &kp TILDE                    &kp CARET  &kp RPAR   &sk RCTRL  &kp RBRC
 &kp ESC    &kp STAR  &kp AT     &kp UNDER  &kp DLLR                     &kp HASH   &sk RSHFT  &kp AMPS   &sk RALT   &kp GRAVE
 &kp MINUS  &kp PIPE             &kp FSLH   &kp PRCNT                    &trans     &kp BSLH              &kp QMARK  &sk RMETA
 &kp PLUS                        &mo NUM    &trans     &trans    &trans  &trans     &trans                           &kp EXCL
