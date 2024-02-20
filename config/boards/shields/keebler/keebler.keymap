@@ -103,10 +103,10 @@
     mouse_layer {
       bindings = <
                   &del_tab                                                      &trans
-        &trans    &copy    &new_tab   &trans                    &trans  &trans  &trans  &trans
-&trans  &cut      &kp DEL  &paste     &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &kp BSPC           &kp ENTER  &to BAS                   &trans  &trans          &trans  &trans
-&trans                     &trans     &trans  &trans    &trans  &trans  &trans                  &trans
+        &trans    &copy     &new_tab   &trans                    &trans  &trans  &trans  &trans
+&trans  &cut      &kp DEL   &paste     &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &kp BSPC            &kp ENTER  &to BAS                   &trans  &trans          &trans  &trans
+&trans                      &trans     &trans   &trans    &trans  &trans  &trans                  &trans
       >;
     };
   };
