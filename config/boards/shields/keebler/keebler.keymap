@@ -72,11 +72,11 @@
 
     navigation_layer {
       bindings = <
-                      &bt BT_SEL 0                                                                 &trans
-           &kp PSCRN  &kp UP        &bt BT_SEL 1  &bt BT_CLR                    &trans  &kp HOME   &kp RCTRL  &kp END
-&kp ESC    &kp DOWN   &kp LCTRL     &kp RIGHT     &trans                        &trans  &kp RSHFT  &trans     &kp RALT  &kp DEL
-&kp LEFT   &kp LALT                 &kp LSHFT     &to MOU                       &trans  &trans                &trans    &kp BSPC
-&kp LMETA                           &trans        &trans      &trans    &trans  &trans  &mo NUM                         &kp ENTER
+                      &bt BT_SEL 0                                                                   &trans
+           &kp PSCRN  &kp UP        &bt BT_SEL 1  &bt BT_CLR                      &trans  &kp HOME   &kp RCTRL  &kp END
+&kp ESC    &kp DOWN   &kp LCTRL     &kp RIGHT     &kp V_VOL_UP                    &trans  &kp RSHFT  &trans     &kp RALT  &kp DEL
+&kp LEFT   &kp LALT                 &kp LSHFT     &kp K_VOL_DN                    &trans  &trans                &trans    &kp BSPC
+&kp LMETA                           &trans        &trans        &trans    &trans  &trans  &mo NUM                         &kp ENTER
       >;
     };
 
