@@ -1,8 +1,7 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-# TODO(shane): change this back to LEFT
-if SHIELD_KEEBLER_3D_RIGHT
+if SHIELD_KEEBLER_3D_LEFT
 
 config ZMK_KEYBOARD_NAME
 	default "Keebler3D"
