@@ -1,5 +1,11 @@
 #include "keebler_3d.dtsi"
 
-&default_transform {
-	col-offset = <18>;
+&kscan0 {
+    col-gpios
+        = <&pro_micro 4 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 0 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 22 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 17 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 6 GPIO_ACTIVE_HIGH>
+        ;
 };
