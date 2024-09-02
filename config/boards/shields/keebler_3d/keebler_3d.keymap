@@ -64,7 +64,7 @@
       bindings = <
 &kp Q  &kp W  &kp F    &kp P      &kp B
 &kp A  &kp R  &kp S    &kp T      &kp G
-&kp Z  kkp X  &kp C    &kp D      &kp V
+&kp Z  &kp X  &kp C    &kp D      &kp V
               &mo NAV  &kp SPACE  &kp TAB
 
 &kp J      &kp L       &kp U      &kp Y  &kp SQT
