@@ -81,9 +81,9 @@
 &kp LMETA  &kp LALT   &kp LCTRL     &kp LSHFT     &kp K_VOL_DN
                       &trans        &trans        &trans
 
-&trans  &kp HOME   &trans     &kp END  &kp DEL
-&trans  &kp RSHFT  &kp RCTRL  &RALT    &BSPC
-&trans  &trans     &trans     &trans   &kp ENTER
+&trans  &kp HOME   &trans     &kp END   &kp DEL
+&trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp BSPC
+&trans  &trans     &trans     &trans    &kp ENTER
 &trans  &trans     &mo NUM
       >;
     };
