@@ -1,0 +1,5 @@
+#include "keebler_3d.dtsi"
+
+&default_transform {
+	col-offset = <18>;
+};

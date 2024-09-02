@@ -1,0 +1,113 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
+#define BAS 0  // base
+#define NAV 1  // navigation
+#define SYM 2  // symbols
+#define NUM 3  // numbers
+#define MOU 4  // mouse
+
+/ {
+  macros {
+    cut: cut {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LCTRL>
+        , <&macro_tap &kp X>
+        , <&macro_release &kp LCTRL>
+        ;
+    };
+    copy: copy {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LCTRL>
+        , <&macro_tap &kp C>
+        , <&macro_release &kp LCTRL>
+        ;
+    };
+    paste: paste {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LCTRL>
+        , <&macro_tap &kp V>
+        , <&macro_release &kp LCTRL>
+        ;
+    };
+    new_tab: new_tab {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LCTRL>
+        , <&macro_tap &kp T>
+        , <&macro_release &kp LCTRL>
+        ;
+    };
+    del_tab: del_tab {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings
+        = <&macro_press &kp LCTRL>
+        , <&macro_tap &kp W>
+        , <&macro_release &kp LCTRL>
+        ;
+    };
+  };
+
+  keymap {
+    compatible = "zmk,keymap";
+
+    default_layer {
+      bindings = <
+              &kp F                                                                 &kp U
+       &kp W  &kp S  &kp P    &kp B                            &kp J       &kp L    &kp E      &kp Y
+&kp Q  &kp R  &kp C  &kp T    &kp G                            &kp M       &kp N    &kp COMMA  &kp I    &kp SQT
+&kp A  &kp X         &kp D    &kp V                            &kp K       &kp H               &kp DOT  &kp O
+&kp Z                &mo NAV  &kp SPACE  &kp TAB    &kp ENTER  &kp RSHIFT  &mo SYM                      &kp SEMI
+      >;
+    };
+
+    navigation_layer {
+      bindings = <
+                      &bt BT_SEL 0                                                                   &trans
+           &kp PSCRN  &kp UP        &bt BT_SEL 1  &bt BT_CLR                      &trans  &kp HOME   &kp RCTRL  &kp END
+&kp ESC    &kp DOWN   &kp LCTRL     &kp RIGHT     &kp K_VOL_UP                    &trans  &kp RSHFT  &trans     &kp RALT  &kp DEL
+&kp LEFT   &kp LALT                 &kp LSHFT     &kp K_VOL_DN                    &trans  &trans                &trans    &kp BSPC
+&kp LMETA                           &trans        &trans        &trans    &trans  &trans  &mo NUM                         &kp ENTER
+      >;
+    };
+
+    symbol_layer {
+      bindings = <
+                     &kp LBKT                                                                 &kp RBKT
+           &kp LBRC  &kp EQUAL  &kp LPAR   &kp TILDE                    &kp CARET  &kp RPAR   &kp RCTRL  &kp RBRC
+&kp ESC    &kp STAR  &kp AT     &kp UNDER  &kp DLLR                     &kp HASH   &kp RSHFT  &kp AMPS   &kp RALT   &kp GRAVE
+&kp MINUS  &kp PIPE             &kp FSLH   &kp PRCNT                    &trans     &kp BSLH              &kp QMARK  &kp RMETA
+&kp PLUS                        &mo NUM    &trans     &trans    &trans  &trans     &trans                           &kp EXCL
+      >;
+    };
+
+    number_layer {
+      bindings = <
+                     &kp N3                                                               &kp N8
+           &kp N2    &kp LCTRL  &kp N4     &kp N5                     &kp N6   &kp N7     &kp RCTRL  &kp N9
+&kp N1     &kp LALT  &kp F3     &kp LSHFT  &kp F11                    &kp F12  &kp RSHFT  &kp F8     &kp RALT  &kp N0
+&kp LMETA  &kp F2               &kp F4     &kp F5                     &kp F6   &kp F7          	     &kp F9    &kp RMETA
+&kp F1                          &trans     &trans   &trans    &trans  &trans   &trans                          &kp F10
+      >;
+    };
+
+    mouse_layer {
+      bindings = <
+                  &del_tab                                                      &trans
+        &trans    &copy     &new_tab   &trans                    &trans  &trans  &trans  &trans
+&trans  &cut      &kp DEL   &paste     &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &kp BSPC            &kp ENTER  &to BAS                   &trans  &trans          &trans  &trans
+&trans                      &trans     &trans   &trans    &trans  &trans  &trans                  &trans
+      >;
+    };
+  };
+};

@@ -17,3 +17,7 @@ include:
     shield: keebler_left
   - board: nice_nano_v2
     shield: keebler_right
+  - board: nice_nano_v2
+    shield: keebler_3d_left
+  - board: nice_nano_v2
+    shield: keebler_3d_right

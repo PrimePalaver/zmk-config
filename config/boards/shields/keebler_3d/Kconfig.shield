@@ -1,0 +1,5 @@
+config SHIELD_KEEBLER_3D_LEFT
+	def_bool $(shields_list_contains,keebler_3d_left)
+
+config SHIELD_KEEBLER_3D_RIGHT
+	def_bool $(shields_list_contains,keebler_3d_right)
