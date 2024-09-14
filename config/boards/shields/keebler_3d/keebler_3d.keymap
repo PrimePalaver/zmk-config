@@ -62,9 +62,9 @@
 
     default_layer {
       bindings = <
-&kp J      &kp L       &kp U      &kp Y  &kp SQT
-&kp M      &kp N       &kp E      &kp I  &kp O
-&kp K      &kp H       &kp COMMA  &kp I  &kp SEMI
+&kp J      &kp L       &kp U      &kp Y    &kp SQT
+&kp M      &kp N       &kp E      &kp I    &kp O
+&kp K      &kp H       &kp COMMA  &kp DOT  &kp SEMI
 &kp ENTER  &kp RSHIFT  &mo SYM
 
 &kp Q  &kp W  &kp F    &kp P      &kp B
@@ -76,15 +76,15 @@
 
     navigation_layer {
       bindings = <
-&kp ESC    &kp PSCRN  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_CLR
-&kp LEFT   &kp DOWN   &kp UP        &kp RIGHT     &kp K_VOL_UP
-&kp LMETA  &kp LALT   &kp LCTRL     &kp LSHFT     &kp K_VOL_DN
-                      &trans        &trans        &trans
+&kp ESC    &kp PSCRN  &kp BSPC   &kp DEL    &trans
+&kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp K_VOL_UP
+&kp LMETA  &kp LALT   &kp LCTRL  &kp LSHFT  &kp K_VOL_DN
+                      &trans     &trans     &trans
 
-&trans  &kp HOME   &trans     &kp END   &kp DEL
-&trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp BSPC
-&trans  &trans     &trans     &trans    &kp ENTER
-&trans  &trans     &mo NUM
+&trans      &kp HOME      &trans        &kp END   &trans
+&trans      &kp RSHFT     &kp RCTRL     &kp RALT  &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &trans    &kp ENTER
+&trans      &trans        &mo NUM
       >;
     };
 
