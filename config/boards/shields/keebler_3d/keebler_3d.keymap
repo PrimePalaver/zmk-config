@@ -83,17 +83,17 @@
 
 &kp ESC    &kp PSCRN  &kp BSPC   &kp DEL    &kp K_VOL_UP
 &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp K_VOL_DN
-&kp LMETA  &kp LALT   &kp LCTRL  &kp LSHFT  &sys_reset
+&kp LMETA  &kp LALT   &kp LCTRL  &kp LSHFT  &bootloader
                       &trans     &trans     &trans
       >;
     };
 
     symbol_layer {
       bindings = <
-&kp CARET   &kp RPAR   &kp RBKT   &kp RBRC   &kp GRAVE
-&kp HASH    &kp RSHFT  &kp RCTRL  &kp RALT   &kp RMETA
-&sys_reset  &kp BSLH   &kp AMPS   &kp QMARK  &kp EXCL
-&trans      &trans     &trans
+&kp CARET    &kp RPAR   &kp RBKT   &kp RBRC   &kp GRAVE
+&kp HASH     &kp RSHFT  &kp RCTRL  &kp RALT   &kp RMETA
+&bootloader  &kp BSLH   &kp AMPS   &kp QMARK  &kp EXCL
+&trans       &trans     &trans
 
 &kp ESC    &kp LBRC  &kp LBKT   &kp LPAR   &kp TILDE
 &kp MINUS  &kp STAR  &kp EQUAL  &kp UNDER  &kp DLLR
