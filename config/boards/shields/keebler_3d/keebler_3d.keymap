@@ -78,8 +78,8 @@
       bindings = <
 &kp ESC    &kp PSCRN  &kp BSPC   &kp DEL    &kp K_VOL_UP
 &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp K_VOL_DN
-&kp LMETA  &kp LALT   &kp LCTRL  &kp LSHFT  &bootloader
-                      &trans     &trans     &trans
+&kp LMETA  &kp LALT   &kp LCTRL  &kp LSHFT  &trans
+                      &trans     &trans     &bootloader
 
 &trans      &kp HOME      &trans        &kp END   &trans
 &trans      &kp RSHFT     &kp RCTRL     &kp RALT  &trans
@@ -97,8 +97,8 @@
 
 &kp CARET    &kp RPAR   &kp RBKT   &kp RBRC   &kp GRAVE
 &kp HASH     &kp RSHFT  &kp RCTRL  &kp RALT   &kp RMETA
-&bootloader  &kp BSLH   &kp AMPS   &kp QMARK  &kp EXCL
-&trans       &trans     &trans
+&trans       &kp BSLH   &kp AMPS   &kp QMARK  &kp EXCL
+&bootloader  &trans     &trans
       >;
     };
 
