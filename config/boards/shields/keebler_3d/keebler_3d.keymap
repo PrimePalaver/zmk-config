@@ -137,7 +137,7 @@
 &kp Q  &kp E  &kp R  &kp T  &kp G
 &kp A  &kp S  &kp W  &kp D  &kp F
 &kp Z  &kp X  &kp C  &kp V  &kp B
-                            &mo G2  &kp SPACE  &kp ENTER
+                            &mo G2  &kp SPACE  &kp TAB
 
 &trans &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans
