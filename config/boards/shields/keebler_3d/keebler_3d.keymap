@@ -9,6 +9,7 @@
 #define MOU 4  // mouse
 #define G1 5   // game_1
 #define G2 6   // game_2
+#define G3 7   // game_3
 
 / {
   macros {
@@ -134,10 +135,10 @@
 
     game_layer_1 {
       bindings = <
-&kp Q  &kp E  &kp R  &kp T  &kp G
-&kp A  &kp S  &kp W  &kp D  &kp F
-&kp Z  &kp X  &kp C  &kp V  &kp B
-                            &mo G2  &kp SPACE  &kp TAB
+&kp LALT   &kp Q  &kp W  &kp E  &kp R
+&kp LSHFT  &kp A  &kp S  &kp D  &kp F
+&kp LCTRL  &kp X  &kp C  &kp V  &kp B
+                            &mo G2  &kp SPACE  &mo G3
 
 &trans &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans
@@ -152,6 +153,20 @@
 &kp N1   &kp N2    &kp 3      &kp N4     &kp N5
 &kp ESC  &kp LALT  &kp LCTRL  &kp LSHFT  &trans
                    &trans     &to NAV    &trans
+
+&trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans
+      >;
+    };
+
+    game_layer_3 {
+      bindings = <
+&trans   &trans  &trans  &trans  &kp T
+&kp TAB  &trans  &trans  &trans  &trans
+&kp Z    &trans  &trans  &trans  &kp M
+                 &trans  &trans  &trans
 
 &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans
