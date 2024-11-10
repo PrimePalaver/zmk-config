@@ -148,10 +148,10 @@
 
     game_layer_2 {
       bindings = <
-&kp 6   &kp 7   &kp 8   &kp 9    &kp 0
-&kp 1   &kp 2   &kp 3   &kp 4    &kp 5
-&trans  &trans  &trans  &trans   &trans
-                &trans  &to NAV  &trans
+&kp N6   &kp N7   &kp 8   &kp N9   &kp N0
+&kp N1   &kp N2   &kp 3   &kp N4   &kp N5
+&kp ESC  &trans   &trans  &trans   &trans
+                  &trans  &to NAV  &trans
 
 &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans
