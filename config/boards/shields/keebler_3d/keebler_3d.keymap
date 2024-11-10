@@ -7,6 +7,8 @@
 #define SYM 2  // symbols
 #define NUM 3  // numbers
 #define MOU 4  // mouse
+#define G1 5   // game_1
+#define G2 6   // game_2
 
 / {
   macros {
@@ -79,7 +81,7 @@
 &kp ESC    &kp PSCRN  &kp BSPC   &kp DEL    &kp K_VOL_UP
 &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp K_VOL_DN
 &kp LMETA  &kp LALT   &kp LCTRL  &kp LSHFT  &trans
-                      &trans     &trans     &bootloader
+                      &trans     &to G1     &bootloader
 
 &trans      &kp HOME      &trans        &kp END   &trans
 &trans      &kp RSHFT     &kp RCTRL     &kp RALT  &trans
@@ -122,6 +124,34 @@
 &trans  &cut      &copy     &paste        &trans
 &trans  &kp BSPC  &kp DEL   &kp ENTER     &to BAS
                             &trans &trans &trans
+
+&trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans
+      >;
+    };
+
+    game_layer_1 {
+      bindings = <
+&kp Q  &kp E  &kp R  &kp T  &kp Y
+&kp A  &kp S  &kp W  &kp D  &kp E
+&kp Z  &kp X  &kp C  &kp V  &kp B
+                            &mo G2  &kp SPACE  &kp ENTER
+
+&trans &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans
+      >;
+    };
+
+    game_layer_2 {
+      bindings = <
+&kp 6   &kp 7   &kp 8   &kp 9    &kp 0
+&kp 1   &kp 2   &kp 3   &kp 4    &kp 5
+&trans  &trans  &trans  &trans   &trans
+                &trans  &to NAV  &trans
 
 &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans
