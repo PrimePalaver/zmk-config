@@ -134,8 +134,8 @@
 
     game_layer_1 {
       bindings = <
-&kp Q  &kp R  &kp W  &kp R  &kp T
-&kp E  &kp A  &kp S  &kp D  &kp G
+&kp Q  &kp E  &kp R  &kp T  &kp G
+&kp A  &kp S  &kp W  &kp D  &kp F
 &kp Z  &kp X  &kp C  &kp V  &kp B
                             &mo G2  &kp SPACE  &kp ENTER
 
