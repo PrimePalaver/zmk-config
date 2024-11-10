@@ -164,8 +164,8 @@
     game_layer_3 {
       bindings = <
 &trans   &trans  &trans  &trans  &kp T
-&kp TAB  &trans  &trans  &trans  &trans
-&kp Z    &trans  &trans  &trans  &kp M
+&kp TAB  &trans  &trans  &trans  &kp G
+&kp Z    &trans  &trans  &kp N   &kp M
                  &trans  &trans  &trans
 
 &trans  &trans  &trans  &trans  &trans
