@@ -78,8 +78,8 @@
 
     navigation_layer {
       bindings = <
-&kp ESC    &kp PSCRN  &kp BSPC   &kp DEL    &kp K_VOL_UP
-&kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp K_VOL_DN
+&kp ESC    &kp PSCRN  &kp BSPC   &kp DEL    &kp C_VOL_UP
+&kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp C_VOL_DN
 &kp LMETA  &kp LALT   &kp LCTRL  &kp LSHFT  &trans
                       &trans     &to G1     &bootloader
 
