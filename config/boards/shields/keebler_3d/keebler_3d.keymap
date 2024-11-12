@@ -163,8 +163,8 @@
 
     game_layer_3 {
       bindings = <
-&kp F1  &kp F2  &trans  &kp T   &kp Y
-&trans  &trans  &trans  &kp G   &kp H
+&trans  &trans  &trans  &kp T   &kp Y
+&kp F1  &kp F2  &kp F3  &kp G   &kp H
 &trans  &trans  &trans  &kp B   &kp N
                 &trans  &trans  &trans
 
