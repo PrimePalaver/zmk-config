@@ -1,0 +1,5 @@
+name: zmk-keyboard-keebler
+
+build:
+  settings:
+    board_root: .
