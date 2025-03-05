@@ -8,5 +8,6 @@ exposes: [i2c_oled]
 features:
   - keys
 siblings:
+  - keebler_3d_dongle
   - keebler_3d_left
   - keebler_3d_right
